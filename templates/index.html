@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block title %}Trang chủ{% endblock %}
+{% block content %}
+<style>
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #f0f4f8;
+    text-align: center;
+  }
+  .content-box {
+    border: 2px solid #3498db;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .content-box h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+  }
+  .content-box p {
+    color: #34495e;
+    font-size: 18px;
+  }
+</style>
+
+<div class="content-container">
+  <div class="content-box">
+    <h2>Chào mừng bạn đến với hệ thống xác thực người dùng an toàn!</h2>
+    <p>Vui lòng chọn chức năng ở thanh điều hướng phía trên.</p>
+  </div>
+</div>
+{% endblock %}
